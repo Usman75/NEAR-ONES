@@ -1,5 +1,39 @@
-<br />
-<br />
+
+# NEAR-ONES[Alpha]
+NEAR-ONES is a Decentralized App for students and teachers to shear their ideas and problems in one place without any censorship.
+the main purpose is to amplify the voice of students on every platform.
+
+---
+## Demo
+[Try Now](https://gitpod.io/#https://github.com/Usman75/NEAR-ONES)
+---
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Usman75/NEAR-ONES)
+
+---
+### Thought Process and idea building
+It’s my first experience of developing with the NEAR protocol. After reading the Challange description and then doing brainstorming finally I decided to build a NEAR-ONES App “A platform to come to near as one place using NEAR Protocol and blockchain”.
+To create a basic playground for playing with near I use a create near app template.
+```
+npx create-near-app your-project-name
+```
+
+# Features
+Here's the things that you can do with NEAR-ONES
+## Content
+Post stories, Shear ideas, ask questions and help others on their problems. Appreciate the post because you think it is cool not because everyone said so.Observe, post independently, create your own interpretation without bounded to public consensus.
+## Identicon
+   To easily and uniquely identifying every user has a unique avatar.
+
+## Further 
+
+Currently, this application provides a simple user interface that increases its interactivity and usability in terms of UX.
+The user simply adds the title and content of the post to shear something. the post is stored on decentralized storage with the randomly generated unique id and also with the reference owner of that content.
+
+In the future, we decided to build other modules like tipping a post that ultimately leads users to focus on the quality of content instead of quantity.
+the other modules like a multimedia integration using IPFS that’s interactivity of the NEAR-ONES.
+
+## Create and Shear
+NEAR-ONES gives everyone to a equal power and without any central control or administration. So feel free to shear your ideas with others and contribute to making a Censorship free world.
 
 <p>
 <img src="https://near.org/wp-content/themes/near-19/assets/img/logo.svg?t=1553011311" width="240">
