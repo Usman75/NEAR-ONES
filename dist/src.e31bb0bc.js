@@ -49449,7 +49449,7 @@ exports.keyStores = __importStar(require("./key_stores/browser-index"));
 __exportStar(require("./common-index"), exports);
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js"}],"config.js":[function(require,module,exports) {
-const CONTRACT_NAME = "dev-1594062009128-8986674" || 'near-ones';
+const CONTRACT_NAME = "dev-1594037516415-9565228" || 'near-ones';
 
 function getConfig(env) {
   switch (env) {
@@ -54725,11 +54725,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-<<<<<<< HEAD
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56732" + '/');
-=======
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54201" + '/');
->>>>>>> 9b9985428e2d464784aea9c3da5ff934f78d6965
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57233" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
