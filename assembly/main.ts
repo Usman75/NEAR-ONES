@@ -19,13 +19,13 @@ function _genId(): string{
 export function createPost(
     title: string,
     body : string
-): Post[] {
+): Post{
       const post_id = _genId()
       const _p = new Post()
       _p.id = post_id
       _p.originalId = post_id
-      _p.title = title;
-      _p.body = body;
+      _p.title = title
+      _p.body = body
       _p.owner = context.sender
       _p.createdAt = context.blockTimestamp
 
