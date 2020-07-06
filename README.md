@@ -6,6 +6,9 @@ the main purpose is to amplify the voice of students on every platform.
 ---
 ## Demo
 [Try Now](https://gitpod.io/#https://github.com/Usman75/NEAR-ONES)
+
+---
+![Alt Text](https://github.com/Usman75/NEAR-ONES/blob/master/near.gif)
 ---
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Usman75/NEAR-ONES)
 
