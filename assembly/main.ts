@@ -19,7 +19,7 @@ function _genId(): string{
 export function createPost(
     title: string,
     body : string
-) {
+): Post[] {
       const post_id = _genId()
       const _p = new Post()
       _p.id = post_id
