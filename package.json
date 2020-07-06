@@ -10,7 +10,7 @@
     "deploy:contract": "near deploy",
     "deploy:pages": "gh-pages -d dist/",
     "deploy": "npm run build && npm run deploy:contract && npm run deploy:pages",
-    "prestart": "nodemon --watch assembly -e ts --exec \"npm run start\"",
+    "prestart": "npm run build:contract && npm run dev:deploy:contract",
     "start": "env-cmd -f ./neardev/dev-account.env parcel src/index.html",
     "dev": "nodemon --watch assembly -e ts --exec \"npm run start\"",
     "test": "asp --nologo && npm run build:contract && jest test --runInBand"
