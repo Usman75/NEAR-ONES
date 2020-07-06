@@ -41,3 +41,40 @@ export function createPost(
     return _p
 
 }
+
+// Method to return all Posts
+export function getAllPosts(): Post[]{
+  let result: Post[] = []
+  const postList = postCollection.get('list')
+  if(!postList){
+    return []
+  }
+  for(let id = 0; id < postList.data.length; id++){
+    const post = postList.data[id]
+    result.push(post)
+  }
+  return result
+}
+
+// Get Post using its id
+export function getPostById(id: string): Post | null{
+  const result: Post[] = []
+  const postList = postCollection.get('list')
+  if(!postList) {
+    return null
+  }
+  for(let _id = 0; _id < postList.data.length; _id++){
+    const post = postList.data[_id]
+    if(id == post.id){
+      result.push(post)
+      break
+    }
+  }
+  if(result.length > 0){
+    return result[0]
+  }
+  else {
+    return null
+  }
+}
+
