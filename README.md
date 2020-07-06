@@ -10,6 +10,8 @@ the main purpose is to amplify the voice of students on every platform.
 ---
 ![Alt Text](https://github.com/Usman75/NEAR-ONES/blob/master/near.gif)
 ---
+[Twitter Post](https://twitter.com/Usman7544/status/1280279638938353669)
+-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Usman75/NEAR-ONES)
 
 ---
