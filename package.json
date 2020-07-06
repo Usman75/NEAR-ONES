@@ -10,7 +10,7 @@
     "deploy:contract": "near deploy",
     "deploy:pages": "gh-pages -d dist/",
     "deploy": "npm run build && npm run deploy:contract && npm run deploy:pages",
-    "prestart": "npm run build:contract && npm run dev:deploy:contract",
+    "prestart": "nodemon --watch assembly -e ts --exec \"npm run start\"",
     "start": "env-cmd -f ./neardev/dev-account.env parcel src/index.html",
     "dev": "nodemon --watch assembly -e ts --exec \"npm run start\"",
     "test": "asp --nologo && npm run build:contract && jest test --runInBand"
@@ -31,9 +31,25 @@
     "react-test-renderer": "^16.13.1"
   },
   "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap": "4.3.1",
+    "chai": "4.2.0",
+    "near-sdk-as": "^0.4.2",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "identicon.js": "^2.3.3",
+    "js-sha256": "^0.9.0",
     "near-api-js": "^0.26.0",
     "react": "^16.13.1",
+    "react-bootstrap": "1.0.0-beta.5",
     "react-dom": "^16.13.1",
+    "react-scripts": "2.1.3",
+    "react-toastify": "^6.0.8",
     "regenerator-runtime": "^0.13.5"
   },
   "eslintConfig": {
